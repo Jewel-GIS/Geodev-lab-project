@@ -44,7 +44,7 @@ The analysis will use GIS to:
 | Dataset | Variable / Use | Source |
 |---|---|---|
 | GRID3 Settlements | Populated settlement areas | [GRID3 Nigeria](https://data.grid3.org) |
-| WorldPop / GRID3 Population | Estimated population per 100 m grid cell | WorldPop Data Catalogue — [WorldPOP](https://hub.worldpop.org/geodata) |
+| WorldPop / GRID3 Population | Estimated population per 100 m grid cell | [WorldPOP](https://hub.worldpop.org/geodata) |
 | Roads / Highways | Transportation infrastructure and distance to nearest road | OpenStreetMap |
 | Health Facilities | Location of health facilities and distance to nearest facility | [GRID3 Nigeria](https://data.grid3.org) |
 | Ward Boundary | Administrative reference | [GRID3](https://data.grid3.org) |
@@ -54,7 +54,3 @@ The analysis will use GIS to:
 ## What I would build
 
 A GIS map that identifies populated areas in Bashorun Ward that are poorly served by both transportation infrastructure and health facilities. The map will highlight priority areas based on population and proximity to roads and health facilities, helping users quickly identify communities with the greatest service-access gaps.
-
-## Important Methodological Note
-
-This project measures **physical proximity/accessibility based on distance**. It does not estimate actual travel time, road congestion, road quality, or network travel conditions because a travel-time friction surface is not included in the analysis.
