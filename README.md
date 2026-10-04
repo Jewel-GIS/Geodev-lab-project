@@ -57,3 +57,8 @@ Bashorun Ward, Ibadan North Local Government Area, Oyo State, Nigeria.
 **Month 1 — Analysis completed**
 
 The repository contains the project brief, data notes, data preparation and quality checks, analysis results, map output, and monthly summary.
+
+## Month 2: development environment and early Python
+
+- Week 5: set up Python, VS Code and the terminal. hello.py runs.
+
