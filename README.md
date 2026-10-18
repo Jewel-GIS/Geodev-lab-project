@@ -64,3 +64,5 @@ The repository contains the project brief, data notes, data preparation and qual
 
 - Week 6: set up the project with uv and added pandas.
 - check.py prints the pandas version.
+
+- Week 7: analyse.py reads wards.csv and converts each area and classifies each ward.
