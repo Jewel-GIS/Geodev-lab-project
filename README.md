@@ -68,3 +68,10 @@ The repository contains the project brief, data notes, data preparation and qual
 - Week 7: analyse.py reads wards.csv and converts each area and classifies each ward.
 
 - Week 8: inspect_data.py summarizes depth and yield in my study area settlement data
+
+- Week 9: created summary.py to refactor the Python code in inspect_data.py. The refactored code produces identical results while making the code cleaner and easier to understand.
+
+
+**Month 2 — Python development and refactoring completed**
+
+The repository contains the Python development setup, project environment, data analysis scripts, settlement data summaries, and refactored code.
