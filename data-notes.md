@@ -1,5 +1,9 @@
 # Data notes
 
+## Data CRS
+- Geographic CRS: EPSG 4326
+- Projected CRS: EPSG 32631
+
 ## GRID3 Nigeria Operational Wards v3.0
 - Source: https://data.grid3.org
 - Downloaded: [09/10/2026]
@@ -45,3 +49,4 @@
 - 1,144 features, lines
 - Many have no surface tag, so paved and unpaved cannot be separated everywhere
 - Coverage looks good in the built-up area, sparse at the edges
+
