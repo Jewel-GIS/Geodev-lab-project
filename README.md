@@ -75,3 +75,7 @@ The repository contains the project brief, data notes, data preparation and qual
 **Month 2 — Python development and refactoring completed**
 
 The repository contains the Python development setup, project environment, data analysis scripts, settlement data summaries, and refactored code.
+
+## Month 3: Geospatial Python and Auomation
+
+- Week 10: Geopandas. Loaded, checked, joined and mapped my study area in code

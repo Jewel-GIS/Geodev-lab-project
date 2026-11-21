@@ -14,3 +14,4 @@ i was able to extract the ward_name lga_name and their states
 
 ## What went wrong and how I fixed it
 I had to run uv run severally cause i made mistakes in indenting and the CRS for 4326, all was corrected appropriately
+When running my_join.py, the first join provided wrong answers and health facilities with same name appeared in different wards, so i had to filter for only Bashorun
