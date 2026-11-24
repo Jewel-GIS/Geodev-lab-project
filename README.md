@@ -80,3 +80,4 @@ The repository contains the Python development setup, project environment, data 
 
 - Week 10: Geopandas. Loaded, checked, joined and mapped my study area in code
 - Week 11: Coordinate Reference Systems and Spatial Operations in Python. Reprojected to EPSG:32631
+- Week 12: Raster Inspection, NDVI and zonal statistics
