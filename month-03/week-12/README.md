@@ -18,6 +18,7 @@ uv run month-03/week-12/
 
 ## What I found
 I realized a lot can be done with python while working with rasters
+Downloaded date for raster surface reflected bands: 12-01-2024 to 02-28-2025
 
 ## What went wrong and how I fixed it
 None

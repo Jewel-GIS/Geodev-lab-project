@@ -1,7 +1,7 @@
 import numpy as np
 import rasterio
 
-folder = "C:/Users/Jewel.Oluwole/dev/Geodev-lab-project/data/raw/landsat/"
+folder = "data/raw/landsat/"
 scene = "LC09_L2SP_191055_20260115_20260117_02_T1"
 
 with rasterio.open(folder + scene + "_SR_B4.TIF") as src:
@@ -26,6 +26,6 @@ print("NDVI range:", low, "to", high)
 print("Mean NDVI:", round(float(ndvi[ok].mean()), 3))
 
 profile.update(dtype="float32", nodata =- 9999, count=1)
-with rasterio.open("C:/Users/Jewel.Oluwole/dev/Geodev-lab-project/data/processed/ndvi.tif", "w", ** profile) as dst:
+with rasterio.open("data/processed/ndvi.tif", "w", ** profile) as dst:
     dst.write(ndvi, 1)
 print("Saved data/processed/ndvi.tif")

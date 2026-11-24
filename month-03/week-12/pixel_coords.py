@@ -1,6 +1,6 @@
 import rasterio
 
-with rasterio.open(r"C:\Users\Jewel.Oluwole\dev\Geodev-lab-project\data\raw\dem.tif") as src:
+with rasterio.open("data/raw/dem.tif") as src:
     x, y = src.xy(0,0)
     print("Centre of top-left pixel:", round(x, 1), round(y, 1))
     

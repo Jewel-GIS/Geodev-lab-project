@@ -1,7 +1,7 @@
 import rasterio
 import numpy as np
 
-with rasterio.open(r"C:\Users\Jewel.Oluwole\dev\Geodev-lab-project\data\raw\dem.tif") as src:
+with rasterio.open("data/raw/dem.tif") as src:
     elevation = src.read(1)
     print("Array shape:", elevation. shape)
     print("Smallest value:", elevation.min())

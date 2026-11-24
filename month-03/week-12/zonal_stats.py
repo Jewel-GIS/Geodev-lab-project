@@ -3,8 +3,8 @@ import numpy as np
 import rasterio
 from rasterio.mask import mask
 
-with rasterio.open("C:/Users/Jewel.Oluwole/dev/Geodev-lab-project/data/raw/dem.tif") as src:
-    wards = gpd. read_file("C:/Users/Jewel.Oluwole/dev/Geodev-lab-project/data/processed/wards.gpkg", layer="wards").to_crs(src.crs)
+with rasterio.open("data/raw/dem.tif") as src:
+    wards = gpd. read_file("/data/processed/wards.gpkg", layer="wards").to_crs(src.crs)
     means = []
     for geom in wards.geometry:
         cells, _= mask(src, [geom], crop=True, filled=False)
